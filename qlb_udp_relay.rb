@@ -1,9 +1,10 @@
-# qlb_udp_relay
+#!/usr/local/bin/ruby
+#-*- encoding: utf-8 -*-
 ########## (C) 2024 QLABO Ltd. ##########
 #
 # simple udp relay for snmp
 # snmp監視を、中継ホスト経由で試す程度の利用を想定。
-# UDPの中継処理についてあまり理解せずに書いており、コードはご参考程度に。
+# UDPの中継処理についてよくわからず書いており、コードは単なるご参考程度に。
 #
 
 require 'socket'
